@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.mycompany.constants"},{"l":"com.mycompany.HelperClasses"},{"l":"com.mycompany.UserController"},{"l":"com.mycompany.UserModel"}];updateSearchResults();
