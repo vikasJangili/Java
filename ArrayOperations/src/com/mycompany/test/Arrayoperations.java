@@ -158,5 +158,9 @@ public class Arrayoperations {
 		}
 		System.out.println(hashtext);
 	}
+	
+	public static void visitorPattern() {
+		
+	}
 
 }
