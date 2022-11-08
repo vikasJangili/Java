@@ -3,7 +3,7 @@ package com.mycompany.test;
 public class Main {
 
 	public static void main(String[] args) {
-		Theatre theatre = new Theatre("Atrium", 5, 12);
+//		Theatre theatre = new Theatre("Atrium", 5, 12);
 		int[] myarray = { 2, 3, 6, 8, 10, 1, 4, 5, 7, 9 };
 		int n=9;
 		
