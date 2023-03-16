@@ -1,0 +1,57 @@
+@options
+@packages
+-classpath
+'/root/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/root/.m2/repository/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar:/root/.m2/repository/javax/json/javax.json-api/1.1.3/javax.json-api-1.1.3.jar:/root/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/root/.m2/repository/junit/junit/4.10/junit-4.10.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/vikas/NetBeansProjects/UserRegistartion/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'UserRegistartion 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/7/docs/api' '/home/vikas/NetBeansProjects/UserRegistartion/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'UserRegistartion 1.0-SNAPSHOT API'
+com.mycompany.UserController
+com.mycompany.UserModel
+com.mycompany.HelperClasses
+com.mycompany.constants
+/root/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar = 1651210573644
+/root/.m2/repository/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar = 1651210574008
+/root/.m2/repository/javax/json/javax.json-api/1.1.3/javax.json-api-1.1.3.jar = 1652167284225
+/root/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar = 1652168409273
+/root/.m2/repository/junit/junit/4.10/junit-4.10.jar = 1652168410552
+/root/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar = 1652168409677
+/home/vikas/NetBeansProjects/UserRegistartion/src/main/java = 1651154827913
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/element-list = 1663921729893
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/constant-values.html = 1663921729917
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/serialized-form.html = 1663921729923
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/overview-tree.html = 1663921730119
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/deprecated-list.html = 1663921730128
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/index.html = 1663921730131
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/module-search-index.js = 1663921730166
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/package-search-index.js = 1663921730166
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/type-search-index.js = 1663921730166
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/member-search-index.js = 1663921730167
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/tag-search-index.js = 1663921730167
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/index-all.html = 1663921730168
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/overview-summary.html = 1663921730176
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/help-doc.html = 1663921730179
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/stylesheet.css = 1663921730180
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/script.js = 1663921730180
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/search.js = 1663921730181
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/jquery-ui.overrides.css = 1663921730307
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/allclasses-index.html = 1663921730173
+/home/vikas/NetBeansProjects/UserRegistartion/target/site/apidocs/allpackages-index.html = 1663921730174

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Test</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .css-class-name{
+                padding-bottom: 30px;
+                width: 175px;
+                height: 8px;
+            }
+            
+
+        </style>
+        <script>
+            window.onbeforeunload = function () {
+
+                let name = document.getElementById("name").value;
+                let result = name.textContent.trim();
+                let id = document.getElementById("id");
+                let status = document.getElementById("status");
+                let name1 = "vikas";
+                localStorage.setItem("name", result);
+                localStorage.setItem("id", id);
+                localStorage.setItem("job", status);                
+            }
+            
+            window.onload = function () {
+//            debugger;
+                var value = localStorage.getItem("name");
+                console.log(value.valueOf());
+//     var value=localStorage.getItem("id");
+//      var value=localStorage.getItem("job");
+              
+            }
+
+            function generateDiv() {          
+                var input = "";
+                input = document.createElement("input");
+                input.setAttribute("placeholder", "FirstName");
+                input.setAttribute("name","name");
+                input.setAttribute("id","id");                               
+                input.className = "css-class-name";
+                input.type = "text";
+                document.body.appendChild(input);
+            }
+
+        </script>
+
+
+    </head>
+    <body>
+        <div>
+            <input  type="text" id="name" name="testname" placeholder="enter name">
+            <br>
+            <br>
+            <br>
+
+            <button  onclick="generateDiv()">click here </button>
+
+            <input  type="text"  id="id" name="testid" placeholder="enter id">
+
+            <input  type="text"  id="status" name="testid" placeholder="enter status">
+            <br>
+            <br>
+            <button type="submit">Submit </button>                                
+        </div>
+    </body>
+</html>

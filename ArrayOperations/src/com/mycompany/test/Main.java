@@ -1,14 +1,12 @@
 package com.mycompany.test;
 
+import javax.swing.JOptionPane;
+
 public class Main {
 
 	public static void main(String[] args) {
-//		Theatre theatre = new Theatre("Atrium", 5, 12);
-		int[] myarray = { 2, 3, 6, 8, 10, 1, 4, 5, 7, 9 };
-		int n=9;
+	
 		
-		int []a=new int[n];
-		numbers(myarray);
 	}
 
 	public static void numbers(int[] myarray) {
@@ -35,3 +33,5 @@ public class Main {
 	}
 
 }
+
+

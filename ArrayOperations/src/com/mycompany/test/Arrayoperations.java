@@ -6,6 +6,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.TreeSet;
 import java.util.regex.Matcher;
@@ -15,7 +16,15 @@ public class Arrayoperations {
 	static int i = 9;
 
 	public static void main(String[] args) {
-		StringTokens();
+		List<Integer> list=new ArrayList<Integer>();  
+		list.add(9);
+		list.add(10);
+		list.add(100);
+		simpleArraySum(list);
+		
+		
+		
+//		StringTokens();
 //		stringOperations();
 //		System.out.println(subStringOperations("welcometojava", 3));
 //		System.out.println(twoSum(new int[] { 3, 3 }, 6));
@@ -316,5 +325,39 @@ public class Arrayoperations {
 
 		scan.close();
 	}
+	
+	public static int simpleArraySum(List<Integer> elements) {
+		int sum=0;
+		for(int i=0;i<elements.size();i++) {
+			sum=sum+elements.get(i);
+			
+		}
+		
+		
+		System.out.println("sum is "+sum);
+		return 0;
+	}
+	
+	public static int birthdayCakeCandles(List<Integer> candles) {
+		int count=0;
+		int num1=0;
+		int num2=0;
+		for(int i=0;i<candles.size();i++) {
+			num1=candles.get(i);
+			
+		}
+		for(int j=0;j<candles.size();j++) {
+			num2=candles.get(j);
+		
+		}
+		
+		
+		
+		
+		return count;
+	}
+	
+	
+
 
 }
